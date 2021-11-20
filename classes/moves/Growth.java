@@ -5,7 +5,7 @@ import ru.ifmo.se.pokemon.*;
 public class Growth extends StatusMove {
 	private static Type TYPE = Type.NORMAL;
 	private static int POWER = 0;
-	private static int ACCURACY = 0;
+	private static int ACCURACY = 100;
 
 	public Growth() {
 		super(TYPE, POWER, ACCURACY);
